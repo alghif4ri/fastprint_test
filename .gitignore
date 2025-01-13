@@ -1,0 +1,179 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+~/.vscode-root/Cookies
+~/.vscode-root/Cookies-journal
+~/.vscode-root/languagepacks.json
+~/.vscode-root/machineid
+~/.vscode-root/Network Persistent State
+~/.vscode-root/Preferences
+~/.vscode-root/SharedStorage
+~/.vscode-root/TransportSecurity
+~/.vscode-root/Trust Tokens
+~/.vscode-root/Trust Tokens-journal
+~/.vscode-root/Cache/Cache_Data/0a09a06f474f22f2_0
+~/.vscode-root/Cache/Cache_Data/9f85206625688632_0
+~/.vscode-root/Cache/Cache_Data/18c06d9f894f6ff7_0
+~/.vscode-root/Cache/Cache_Data/246ff63a95b5379a_0
+~/.vscode-root/Cache/Cache_Data/258d3fa019e430cc_0
+~/.vscode-root/Cache/Cache_Data/943a277b0dfdad65_0
+~/.vscode-root/Cache/Cache_Data/3475a3f2b5b25255_0
+~/.vscode-root/Cache/Cache_Data/5283edf90cf4ab50_0
+~/.vscode-root/Cache/Cache_Data/15651df7a7ad0fa5_0
+~/.vscode-root/Cache/Cache_Data/367650562dabb287_0
+~/.vscode-root/Cache/Cache_Data/d121e2a6335b7510_0
+~/.vscode-root/Cache/Cache_Data/d53137183293ab18_0
+~/.vscode-root/Cache/Cache_Data/e8e919660ea44a7e_0
+~/.vscode-root/Cache/Cache_Data/index
+~/.vscode-root/Cache/Cache_Data/index-dir/the-real-index
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/5ffc9b8837f2b807_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/10dbcf7b5cec1d42_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/91cb6b9d23d5a62a_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/82449cc5d0ef2cae_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/a3103c761091c801_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/ab6caa6e3e343996_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/cd3bda2fe16f6386_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/f53c0888c292bb16_0
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/index
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/js/index-dir/the-real-index
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/wasm/index
+~/.vscode-root/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/chrome/wasm/index-dir/the-real-index
+~/.vscode-root/CachedProfilesData/__default__profile__/extensions.builtin.cache
+~/.vscode-root/CachedProfilesData/__default__profile__/extensions.user.cache
+~/.vscode-root/Code Cache/js/index
+~/.vscode-root/Code Cache/js/index-dir/the-real-index
+~/.vscode-root/Code Cache/wasm/index
+~/.vscode-root/Code Cache/wasm/index-dir/the-real-index
+~/.vscode-root/Crashpad/client_id
+~/.vscode-root/DawnGraphiteCache/data_0
+~/.vscode-root/DawnGraphiteCache/data_1
+~/.vscode-root/DawnGraphiteCache/data_2
+~/.vscode-root/DawnGraphiteCache/data_3
+~/.vscode-root/DawnGraphiteCache/index
+~/.vscode-root/DawnWebGPUCache/data_0
+~/.vscode-root/DawnWebGPUCache/data_1
+~/.vscode-root/DawnWebGPUCache/data_2
+~/.vscode-root/DawnWebGPUCache/data_3
+~/.vscode-root/DawnWebGPUCache/index
+~/.vscode-root/Dictionaries/en-US-10-1.bdic
+~/.vscode-root/GPUCache/data_0
+~/.vscode-root/GPUCache/data_1
+~/.vscode-root/GPUCache/data_2
+~/.vscode-root/GPUCache/data_3
+~/.vscode-root/GPUCache/index
+~/.vscode-root/Local Storage/leveldb/000003.log
+~/.vscode-root/Local Storage/leveldb/CURRENT
+~/.vscode-root/Local Storage/leveldb/LOCK
+~/.vscode-root/Local Storage/leveldb/LOG
+~/.vscode-root/Local Storage/leveldb/MANIFEST-000001
+~/.vscode-root/logs/20250112T084031/editSessions.log
+~/.vscode-root/logs/20250112T084031/main.log
+~/.vscode-root/logs/20250112T084031/remoteTunnelService.log
+~/.vscode-root/logs/20250112T084031/sharedprocess.log
+~/.vscode-root/logs/20250112T084031/telemetry.log
+~/.vscode-root/logs/20250112T084031/terminal.log
+~/.vscode-root/logs/20250112T084031/userDataSync.log
+~/.vscode-root/logs/20250112T084031/window1/notebook.rendering.log
+~/.vscode-root/logs/20250112T084031/window1/renderer.log
+~/.vscode-root/logs/20250112T084031/window1/views.log
+~/.vscode-root/logs/20250112T084031/window1/exthost/extensionTelemetry.log
+~/.vscode-root/logs/20250112T084031/window1/exthost/exthost.log
+~/.vscode-root/logs/20250112T084031/window1/exthost/vscode.git/Git.log
+~/.vscode-root/logs/20250112T084031/window1/exthost/vscode.github/GitHub.log
+~/.vscode-root/logs/20250112T084031/window1/output_20250112T084039/tasks.log
+~/.vscode-root/logs/20250112T084031/window1/output_20250112T084229/tasks.log
+~/.vscode-root/Service Worker/Database/000003.log
+~/.vscode-root/Service Worker/Database/CURRENT
+~/.vscode-root/Service Worker/Database/LOCK
+~/.vscode-root/Service Worker/Database/LOG
+~/.vscode-root/Service Worker/Database/MANIFEST-000001
+~/.vscode-root/Service Worker/ScriptCache/2cc80dabc69f58b6_0
+~/.vscode-root/Service Worker/ScriptCache/2cc80dabc69f58b6_1
+~/.vscode-root/Service Worker/ScriptCache/67a473248953641b_0
+~/.vscode-root/Service Worker/ScriptCache/67a473248953641b_1
+~/.vscode-root/Service Worker/ScriptCache/b6c28cea6ed9dfc1_0
+~/.vscode-root/Service Worker/ScriptCache/b6c28cea6ed9dfc1_1
+~/.vscode-root/Service Worker/ScriptCache/f1cdccba37924bda_0
+~/.vscode-root/Service Worker/ScriptCache/f1cdccba37924bda_1
+~/.vscode-root/Service Worker/ScriptCache/index
+~/.vscode-root/Service Worker/ScriptCache/index-dir/the-real-index
+~/.vscode-root/Session Storage/000003.log
+~/.vscode-root/Session Storage/CURRENT
+~/.vscode-root/Session Storage/LOCK
+~/.vscode-root/Session Storage/LOG
+~/.vscode-root/Session Storage/MANIFEST-000001
+~/.vscode-root/Shared Dictionary/db
+~/.vscode-root/Shared Dictionary/db-journal
+~/.vscode-root/Shared Dictionary/cache/index
+~/.vscode-root/Shared Dictionary/cache/index-dir/the-real-index
+~/.vscode-root/User/globalStorage/state.vscdb
+~/.vscode-root/User/globalStorage/state.vscdb.backup
+~/.vscode-root/User/globalStorage/storage.json
+~/.vscode-root/User/History/-48a36ef8/entries.json
+~/.vscode-root/User/History/-48a36ef8/SvEf.php
+~/.vscode-root/User/History/4aa068f5/aXrt.php
+~/.vscode-root/User/History/4aa068f5/entries.json
+~/.vscode-root/User/workspaceStorage/1736646032814/state.vscdb
+~/.vscode-root/User/workspaceStorage/1736646032814/state.vscdb.backup
+~/.vscode-root/User/workspaceStorage/17a2e9330376fe2fa395a85931d8388e/state.vscdb
+~/.vscode-root/User/workspaceStorage/17a2e9330376fe2fa395a85931d8388e/state.vscdb.backup
+~/.vscode-root/User/workspaceStorage/17a2e9330376fe2fa395a85931d8388e/workspace.json
+~/.vscode-root/WebStorage/QuotaManager
+~/.vscode-root/WebStorage/QuotaManager-journal
+~/.vscode-root/WebStorage/1/CacheStorage/index.txt
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/1ce32135cbfc9878_0
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/6bbf2cc04d6b3ea3_0
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/98e259df6f25a0c3_0
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/44270d1d5aa8d3c3_0
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/index
+~/.vscode-root/WebStorage/1/CacheStorage/bffb1f78-dc40-4afa-bf58-d015e5c63be9/index-dir/the-real-index
+~/.vscode-root/WebStorage/2/CacheStorage/index.txt
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/1ce32135cbfc9878_0
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/6bbf2cc04d6b3ea3_0
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/98e259df6f25a0c3_0
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/44270d1d5aa8d3c3_0
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/index
+~/.vscode-root/WebStorage/2/CacheStorage/6396dd1d-e5f9-42bb-afed-ed55ffbf341d/index-dir/the-real-index
+~/.vscode-root/WebStorage/3/CacheStorage/index.txt
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/1ce32135cbfc9878_0
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/6bbf2cc04d6b3ea3_0
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/98e259df6f25a0c3_0
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/44270d1d5aa8d3c3_0
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/index
+~/.vscode-root/WebStorage/3/CacheStorage/338e5848-5b0a-4700-994b-f9055d5a361b/index-dir/the-real-index
+~/.vscode-root/WebStorage/4/CacheStorage/index.txt
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/1ce32135cbfc9878_0
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/6bbf2cc04d6b3ea3_0
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/98e259df6f25a0c3_0
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/44270d1d5aa8d3c3_0
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/index
+~/.vscode-root/WebStorage/4/CacheStorage/629d5ccd-5d61-489c-8a62-0fc804bf0e04/index-dir/the-real-index
