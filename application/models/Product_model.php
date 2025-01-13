@@ -53,11 +53,11 @@ class Product_model extends CI_Model
 
 	public function get_products()
 	{
-		$query = $this->db->select('produk.*, kategori.nama_kategori, status.status')
+		$query = $this->db->select('produk.*, kategori.nama_kategori, status.nama_status')
 			->from('produk')
 			->join('kategori', 'kategori.id_kategori = produk.kategori_id', 'left')
 			->join('status', 'status.id_status = produk.status_id', 'left')
-			->where('status', 'bisa dijual') // Hanya ambil produk yang 'bisa dijual'
+			->where('nama_status', 'bisa dijual') // Hanya ambil produk yang 'bisa dijual'
 			->where('produk.deleted_at', null)  // Hanya ambil produk yang aktif
 			->get();
 		return $query->result();

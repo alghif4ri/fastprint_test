@@ -47,7 +47,7 @@
 							<td><?= $product->nama_produk ?></td>
 							<td><?= $product->harga ?></td>
 							<td><?= $product->nama_kategori ?></td>
-							<td><?= $product->status ?></td>
+							<td><?= $product->nama_status ?></td>
 							<td>
 								<button class="btn btn-warning btn-sm edit-product" data-id="<?= $product->id_produk ?>">Edit</button>
 								<button class="btn btn-danger btn-sm delete-product" data-id="<?= $product->id_produk ?>">Hapus</button>

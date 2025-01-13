@@ -3,7 +3,7 @@ class ApiFetcher extends CI_Controller
 {
 	public function fetch_data()
 	{
-		$username = "tesprogrammer130125C10";
+		$username = "tesprogrammer130125C12";
 		$password_prefix = "bisacoding-";
 
 		date_default_timezone_set('Asia/Jakarta');  // Sesuaikan timezone server
